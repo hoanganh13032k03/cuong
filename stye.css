@@ -1,0 +1,804 @@
+:root {
+    --font: 'Times New Roman', Times, serif;
+
+}
+
+body {
+    padding: 0 6%;
+    background-color: #EAEAEA;
+    font-family: var(--font)
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header2 img {
+
+    /* background-image: url(img/banner0412.jpg); */
+    /* height: 250px; */
+    width: 100%;
+
+}
+
+
+
+
+
+.menubar {
+
+    background-color: yellow;
+    position: sticky;
+    width: 100%;
+    margin-top: -2%;
+    top: 0px;
+    z-index: 999;
+
+
+}
+
+.menubar ul {
+    padding: 1%;
+    justify-content: space-around;
+
+
+}
+
+.sub-dropmenu {
+    display: none;
+    position: absolute;
+
+}
+
+.sub-dropmenu a {
+    padding: 3%;
+
+
+}
+
+.menubar a:hover {
+    color: #131F51;
+    font-style: italic;
+}
+
+.sub-dropmenu li {
+
+    /* border: #131F51 2px solid; */
+    width: 110%;
+    padding: 2%;
+    background-color: #52a9df;
+}
+
+.dropmenu:hover .sub-dropmenu {
+    display: block;
+
+}
+
+.bodyweb {
+    background-color: white;
+    /* height: 1000px; */
+    /* margin-top: 0px; */
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.content {
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px #289DCC;
+    width: 78%;
+    /* height: 1000px; */
+    margin-left: 2%;
+    border-radius: 5px;
+
+}
+
+.sidebar {
+    /* background-color: #1E62CA; */
+    /* border: 1px solid black; */
+    height: 200%;
+    width: 20%;
+    position: sticky;
+    box-shadow: 0 0 10px #52a9df;
+
+
+
+}
+
+footer {
+    position: relative;
+    height: 50%;
+}
+
+.footerbar {
+    background-color: #131F51;
+    position: relative;
+    bottom: -100%;
+    /* height: 30px; */
+    width: 100%;
+    color: white;
+
+
+}
+
+.logotruong {
+    position: absolute;
+    width: 10%;
+    top: 0px;
+    left: 0px;
+}
+
+.thongtintruong {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    /* width: 100%; */
+}
+
+.thongtintruong p {
+    color: white;
+}
+
+footer {
+    height: 200px;
+    background-color: #289DCC;
+
+}
+
+/* 
+.hot{
+
+width: 49%;
+height: 310px;
+margin: 2px;
+display: flex;
+flex-wrap: wrap;
+
+} */
+
+
+h3 {
+    background-color: #52a9df;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.sidebar ul {
+    display: block;
+
+}
+
+.sidebar li {
+    /* background-color: #52a9df; */
+    /* border: 1px black solid; */
+    margin-left: -20%;
+    padding: 9%;
+
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #52a9df;
+
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.tieude {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.tieude h5 {
+    background-color: #52a9df;
+    padding: 1%;
+}
+
+.tintuc {
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow;
+border: 2px black solid; */
+    display: flex;
+}
+
+.to {
+    height: 300px;
+    width: 100%;
+    margin-left: 5%;
+    width: 49%;
+    position: relative;
+    /* background-color: #131F51; */
+}
+
+.to img {
+    height: 295px;
+    width: 100%;
+    position: absolute;
+    animation: test 5s infinite;
+}
+
+
+.to .text-in-img {
+    text-decoration: none;
+    color: #00b2f8;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    bottom: 40px;
+}
+
+.nho {
+    height: 100%;
+
+    width: 49%;
+    margin-left: 4%;
+    position: relative;
+}
+
+.nho img {
+    height: 95px;
+    width: 30%;
+}
+
+h3 {
+
+    animation: nhapnhay 3s infinite alternate-reverse;
+
+    transition-duration: 2s;
+    
+
+}
+
+
+
+@keyframes nhapnhay {
+
+    0% {
+        color: yellow;
+
+    }
+
+    50% {
+        color: orangered;
+
+
+    }
+
+    100% {
+        color: orange;
+
+    }
+}
+
+.nho .text-in-img {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 67%;
+    position: absolute;
+    text-decoration: none;
+    color: #289DCC
+}
+
+.nho div {
+    height: 33%;
+    width: 100%;
+    /*  */
+}
+
+.doantruong {
+    height: 300px;
+    width: 100%;
+    /* background-color: yellow;
+border: 2px black solid; */
+    /* margin-top: 10px; */
+    display: flex;
+}
+
+.tuyensinh {
+    height: 300px;
+    width: 100%;
+    /* border: 2px black solid;  background-color: yellow; */
+
+    /* margin-top: 10px; */
+    display: flex;
+}
+
+.content-item {
+    width: 90%;
+    /* background-color: #131F51; */
+    text-align: center;
+
+}
+
+.content-item img {
+    width: 70%;
+
+
+}
+
+.content-item p {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.content-item h2 {
+    text-align: end;
+}
+
+.ykien-form {
+    text-align: center;
+    width: 70%;
+    /* background-color: #52a9df; */
+    padding: 5%;
+    /* border: 2px solid gray; */
+    box-shadow: 0 0 10px #52a9df;
+    margin-top: 50px;
+    margin-left: 70px;
+
+}
+
+.ykien-form .line {
+    display: flex;
+    padding: 2%;
+
+}
+
+.ykien-form .line label {
+    display: flex;
+    width: 130px;
+    /* height: 30px; */
+
+}
+
+.noibo {
+    /* background-color: #131F51; */
+    width: 90%;
+    height: 17%;
+    margin: 3%;
+    /* padding: 5px; */
+    box-shadow: 0 0 5px #289DCC;
+    /* text-align: center; */
+
+}
+
+.noibo p {
+    text-align: center;
+    font-size: 140%;
+    /* background-color: #131F51; */
+    margin-top: 0px;
+}
+
+.nhap {
+
+    width: 90%;
+    padding: 2px;
+    margin: 1px;
+}
+
+.antoan {
+
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.antoan iframe {
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 70%;
+
+}
+
+.lienhe2 {
+    text-align: center;
+}
+
+.anninh {
+
+    width: 30%;
+    margin: 5%;
+}
+
+.logolienhe {
+    width: 50%;
+}
+
+.lienhe {
+    display: flex;
+    margin-top: 10%;
+    margin-right: 10%;
+
+}
+
+.lienhe p {
+    margin-top: 3%;
+    margin-left: -10%;
+    font-size: 150%;
+
+}
+
+.map {
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 100%;
+
+}
+
+.map iframe {
+    width: 80%;
+
+}
+
+.gt1 {
+    display: flex;
+
+
+}
+
+.gt1 img {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 50%;
+
+}
+
+.tt {
+    margin: 1%;
+    font-size: 120%;
+}
+
+.tt span {
+
+    font-weight: bold;
+}
+
+.gttruong {
+
+    margin-top: 5%;
+}
+
+.gt2 img {
+    width: 50%;
+
+
+}
+
+.sub-gt2 {
+    display: flex;
+
+}
+
+.sub-gt2 p {
+    width: 46%;
+    padding: 0 2%;
+    font-size: 150%;
+}
+
+.sub-gt3 {
+    font-size: 150%;
+    padding: 0 2%;
+}
+
+.kyniem {
+    padding: 2%;
+
+}
+
+.tho {
+    text-align: center;
+}
+
+.kyniem img {
+
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.anninhmang h2 {
+    text-align: center;
+
+}
+
+.anninhmang {
+    padding: 2%;
+}
+
+.baikhac {
+
+    height: 300px;
+    width: 100%;
+    /* border: 2px black solid;  background-color: yellow; */
+
+    /* margin-top: 10px; */
+    display: flex;
+
+}
+
+
+.active i {
+
+    color: rgb(158, 12, 12);
+}
+
+.active {
+    color: rgb(158, 12, 12);
+
+}
+
+a:hover {
+
+    color: brown;
+    font-size: 15px;
+
+
+}
+
+.to a:hover{
+    color: brown;
+    font-size: 15px;
+}
+.nho a:hover{
+    color: brown;
+    font-size: 15px;
+    
+}
+
+.thongbao-run {
+    height: 30px;
+    background-color: #289DCC;
+    margin-bottom: 1%;
+    overflow: hidden;
+
+}
+
+.thongbao-run p {
+    margin-top: 0.2%;
+    animation: thongbaorun infinite 30s linear;
+    font-size: 20px;
+    color: antiquewhite;
+
+}
+.anninh img{
+    width: 300%;
+
+
+}
+
+@keyframes thongbaorun {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+
+    }
+
+}
+
+/* ====man hinh nho 750px=== */
+@media screen and (max-width:910px) {
+    a {
+        font-size: 10px;
+
+    }
+
+    .to {
+        height: 300px;
+        width: 90%;
+        /* margin-left: 5%; */
+
+        position: relative;
+        /* background-color: #131F51; */
+    }
+
+    .to img {
+        height: 95%;
+        width: 100%;
+        position: absolute;
+        animation: test 5s infinite;
+    }
+
+
+    .to .text-in-img {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        font-size: 15px;
+        z-index: 10;
+        width: 100%;
+        bottom: 40px;
+    }
+
+    .tintuc {
+        height: 500px;
+        flex-wrap: wrap;
+    }
+
+    .tintuc .nho {
+        display: flex;
+        flex-wrap: wrap;
+        height: 50%;
+        width: 100%;
+        margin-left: 5.2%;
+        position: relative;
+
+    }
+
+    .tintuc .nho img {
+        height: 95px;
+        width: 30%;
+
+    }
+
+    .tintuc .nho .text-in-img {
+        margin-top: 1%;
+        margin-left: 1%;
+        width: 30%;
+        position: absolute;
+        text-decoration: none;
+        color: #289DCC;
+
+    }
+
+    .tintuc .nho div {
+        height: 40%;
+        width: 50%;
+
+    }
+
+    .text-in-img {
+        font-size: 12px;
+
+    }
+    .thongbao-run p {
+        margin-top: 0.2%;
+        animation: thongbaorun infinite 30s linear;
+        font-size: 17px;
+        color: antiquewhite;
+    
+    }
+
+    /* .anninh img{
+        width: 300%;
+
+
+    } */
+
+
+}
+/* ====man hinh nho 750px=== */
+@media screen and (max-width:500px) {
+    a {
+        font-size: 10px;
+
+    }
+
+    .to {
+        height: 300px;
+        width: 90%;
+        /* margin-left: 5%; */
+
+        position: relative;
+        /* background-color: #131F51; */
+    }
+
+    .to img {
+        height: 95%;
+        width: 100%;
+        position: absolute;
+        /* animation: test 5s infinite; */
+       
+    }
+
+
+    .to .text-in-img {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        font-size: 15px;
+        z-index: 10;
+        width: 100%;
+        bottom: 40px;
+    }
+
+    .tintuc {
+        height: 500px;
+        flex-wrap: wrap;
+    }
+
+    .tintuc .nho {
+        display: flex;
+        flex-wrap: wrap;
+        height: 50%;
+        width: 100%;
+        margin-left: 5.2%;
+        position: relative;
+
+    }
+
+    .tintuc .nho img {
+        height: 95px;
+        width: 30%;
+
+    }
+
+    .tintuc .nho .text-in-img {
+        margin-top: 1%;
+        margin-left: 1%;
+        width: 30%;
+        position: absolute;
+        text-decoration: none;
+        color: #289DCC;
+
+    }
+
+    .tintuc .nho div {
+        height: 30%;
+        width: 50%;
+        margin-bottom: 2%;
+        /* background-color: #131F51; */
+    }
+
+    .text-in-img {
+        font-size: 10px;
+
+    }
+    .thongbao-run p {
+        margin-top: 2%;
+        animation: thongbaorun infinite 30s linear;
+        font-size: 10.5px;
+        color: antiquewhite;
+    
+    }
+
+    /* .anninh img{
+        width: 300%;
+
+
+    } */
+    .sidebar ul{
+        margin-left: -10%;
+
+    }
+    .sidebar a{
+        margin-left: -50%;
+        font-size: 7px;
+        /* background-color: #131F51; */
+    }
+    footer{
+        font-size: 17px;
+
+
+    }
+  
+    .footerbar{
+        font-size: 10px;
+
+    }
+
+}
